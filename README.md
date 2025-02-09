@@ -31,13 +31,13 @@ This repository supports multiple versions of GCC. Replace `{VERSION}` with the 
 2. Download the prebuilt toolchain
     - **Linux**
     ```
-    wget https://github.com/your-username/riscv32-toolchain/releases/download/v$VERSION/riscv32-toolchain-linux.tar.gz
+    wget https://github.com/nycu-arclab/riscv32-toolchain/releases/download/v$VERSION/riscv32-unknown-elf-gcc-$VERSION-linux.tar.gz
     tar -xzvf riscv32-toolchain-linux.tar.gz -C /opt
     ```
     - **macOS**
     ```
-    wget https://github.com/your-username/riscv32-toolchain/releases/download/v$VERSION/riscv32-toolchain-macos.tar.gz
-    tar -xzvf riscv32-toolchain-macos.tar.gz -C /opt
+    wget https://github.com/nycu-arclab/riscv32-toolchain/releases/download/v$VERSION/riscv32-unknown-elf-gcc-$VERSION-apple-darwin.tar.gz
+    tar -xzvf riscv32-toolchain-apple-darwin.tar.gz -C /opt
     ```  
 3. Add the toolchain to your `PATH`
    ```
